@@ -16,7 +16,6 @@
   ~ limitations under the License
   -->
 <resources>
-  <!-- Title for the sms disambiguation dialog -->
-  <!-- Title for the call disambiguation dialog -->
-  <!-- Message next to disambiguation dialog check box -->
+  <string name="sms_disambig_title">Escueyi númberu</string>
+  <string name="call_disambig_title">Escueyi númberu</string>
 </resources>

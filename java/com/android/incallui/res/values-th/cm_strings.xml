@@ -15,4 +15,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_recording_failed_message">ไม่สามารถเริ่มบันทึกการสนทนาได้</string>
+    <string name="call_recording_file_location">บันทึกการสนทนาไปยัง <xliff:g id="filename">%s</xliff:g> แล้ว</string>
+    <string name="onscreenCallRecordText">บันทึกการสนทนา</string>
+    <string name="onscreenCallRecordingText">กำลังบันทึกการโทร - <xliff:g id="duration" example="00:10">%1$s</xliff:g></string>
+    <string name="onscreenStopCallRecordText">หยุดการบันทึก</string>
+    <string name="recording_time_text">กำลังบันทึก</string>
+    <string name="recording_warning_title">เปิดใช้การบันทึกเสียงสนทนาหรือไม่</string>
+    <string name="recording_warning_text">หมายเหตุ: คุณต้องรับผิดชอบต่อการปฏิบัติตามกฎหมายระเบียบข้อบังคับและกฎระเบียบที่เกี่ยวข้องกับการใช้ฟังก์ชันการบันทึกการโทรและการใช้หรือการแจกจ่ายข้อมูลการบันทึกเหล่านั้น</string>
+</resources>

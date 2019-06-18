@@ -16,39 +16,36 @@
   ~ limitations under the License
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Title for dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=30]-->
-  <!-- Body text for dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=NONE]-->
-  <!-- Positive confirmation button for the dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=NONE]-->
+  <string name="migrate_blocked_numbers_dialog_title">Dull rhwystro newydd a mwy syml</string>
+  <string name="migrate_blocked_numbers_dialog_message">I dy warchod yn well, mae ar Ffôn angen newid sut mae rhwystro\'n gweithio. Bydd dy rifau sydd wedi\'u rhwystro nawr yn stopio galwadau a negeseuon testun a bydd hefyd yn bosib eu rhannu gydag apiau eraill.</string>
   <string name="migrate_blocked_numbers_dialog_allow_button">Caniatáu</string>
-  <!-- Do not translate -->
-  <!-- Confirmation dialog title for blocking a number. [CHAR LIMIT=NONE] -->
-  <!-- Confirmation dialog message for blocking a number with visual voicemail active.
-       [CHAR LIMIT=NONE] -->
-  <!-- Confirmation dialog message for blocking a number with no visual voicemail.
-       [CHAR LIMIT=NONE] -->
-  <!-- Confirmation dialog message for blocking a number with new filtering enabled.
-       [CHAR LIMIT=NONE] -->
-  <!-- Block number alert dialog button [CHAR LIMIT=32] -->
-  <!-- Confirmation dialog for unblocking a number. [CHAR LIMIT=NONE] -->
-  <!-- Unblock number alert dialog button [CHAR LIMIT=32] -->
-  <!-- Error message shown when user tries to add invalid number to the block list.
-      [CHAR LIMIT=64] -->
-  <!-- Text for snackbar to undo blocking a number. [CHAR LIMIT=64] -->
-  <!-- Text for snackbar to undo unblocking a number. [CHAR LIMIT=64] -->
-  <!-- Text for undo button in snackbar for blocking/unblocking number. [CHAR LIMIT=10] -->
-  <!-- Error toast message for when send to voicemail import fails. [CHAR LIMIT=40] -->
-  <!-- Title of notification telling the user that call blocking has been temporarily disabled.
-       [CHAR LIMIT=56] -->
-  <!-- Text for notification which provides the reason that call blocking has been temporarily
-       disabled. Namely, we disable call blocking after an emergency call in case of return
-       phone calls made by emergency services. [CHAR LIMIT=64] -->
-  <!-- Title of alert dialog after clicking on Block/report as spam.  [CHAR LIMIT=100] -->
-  <!-- Text in alert dialog after clicking on Block/report as spam.  [CHAR LIMIT=100] -->
-  <!-- Text in alert dialog after clicking on Block.  [CHAR LIMIT=100] -->
-  <!-- Text in alert dialog after clicking on Unblock.  [CHAR LIMIT=100] -->
-  <!-- Title of alert dialog after clicking on Unblock.  [CHAR LIMIT=100] -->
-  <!-- Report not spam number alert dialog button [CHAR LIMIT=32] -->
-  <!-- Title of alert dialog after clicking on Report as not spam.  [CHAR LIMIT=100] -->
-  <!-- Text in alert dialog after clicking on Report as not spam.  [CHAR LIMIT=100] -->
-  <!-- Label for checkbox in the Alert dialog to allow the user to report the number as spam as well.  [CHAR LIMIT=30] -->
+  <string name="migrate_blocked_numbers_dialog_cancel_button">@android:string/cancel</string>
+  <string name="block_number_confirmation_title">Rhwystro
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?</string>
+  <string name="block_number_confirmation_message_vvm">Caiff galwadau o\'r rhif hwn eu rhwystro a bydd negeseuon llais yn cael eu dileu yn awtomatig.
+    </string>
+  <string name="block_number_confirmation_message_no_vvm">Caiff galwadau o\'r rhif hwn eu rhwystro, ond mi fydd dal yn bosib i\'r galwr adael negeseuon llais.
+    </string>
+  <string name="block_number_confirmation_message_new_filtering">        Ni fyddi bellach yn derbyn galwadau na negeseuon testun oddi wrth y rhif hwn.
+    </string>
+  <string name="block_number_ok">RHWYSTRO</string>
+  <string name="unblock_number_confirmation_title">Dadrwystro
+        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?</string>
+  <string name="unblock_number_ok">DADRWYSTRO</string>
+  <string name="invalidNumber">Mae <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> yn annilys.</string>
+  <string name="snackbar_number_blocked"><xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> wedi\'i rhwystro</string>
+  <string name="snackbar_number_unblocked"><xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> wedi\'i rhwystro</string>
+  <string name="block_number_undo">DADWNEUD</string>
+  <string name="send_to_voicemail_import_failed">Methwyd â mewnforio</string>
+  <string name="call_blocking_disabled_notification_title">Mae rhwystro galwadau wedi ei analluogi am 48 awr.    </string>
+  <string name="call_blocking_disabled_notification_text">Wedi\'i analluogi gan fod galwad brys wedi ei gwneud.    </string>
+  <string name="block_report_number_alert_title">Rhwystro <xliff:g id="number">%1$s</xliff:g>?</string>
+  <string name="block_report_number_alert_details">Ni fyddi\'n derbyn galwadau oddi wrth y rhif hwn eto.</string>
+  <string name="block_number_alert_details"><xliff:g id="text">%1$s</xliff:g> Caiff yr alwad hwn ei adrodd fel sbam.</string>
+  <string name="unblock_number_alert_details">Caiff y rhif hwn ei ddadrwystro a\'i adrodd fel nad yw yn sbam. Ni chaiff galwadau eu hystyried fel sbam.</string>
+  <string name="unblock_report_number_alert_title">Dadrwystro <xliff:g id="number">%1$s</xliff:g>?</string>
+  <string name="report_not_spam_alert_button">Anfon Adroddiad</string>
+  <string name="report_not_spam_alert_title">Anfon adroddiad am gamgymeriad?</string>
+  <string name="report_not_spam_alert_details">Ni chaiff galwadau oddi wrth <xliff:g id="number">%1$s</xliff:g> cael eu hystyried fel sbam.</string>
+  <string name="checkbox_report_as_spam_action">Adrodd yr alwad fel sbam</string>
 </resources>

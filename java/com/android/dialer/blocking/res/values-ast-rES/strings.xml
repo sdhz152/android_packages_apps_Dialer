@@ -16,38 +16,34 @@
   ~ limitations under the License
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Title for dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=30]-->
-  <!-- Body text for dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=NONE]-->
-  <!-- Positive confirmation button for the dialog which opens when the user needs to migrate to the framework blocking implementation [CHAR LIMIT=NONE]-->
-  <!-- Do not translate -->
-  <!-- Confirmation dialog title for blocking a number. [CHAR LIMIT=NONE] -->
-  <!-- Confirmation dialog message for blocking a number with visual voicemail active.
-       [CHAR LIMIT=NONE] -->
-  <!-- Confirmation dialog message for blocking a number with no visual voicemail.
-       [CHAR LIMIT=NONE] -->
-  <!-- Confirmation dialog message for blocking a number with new filtering enabled.
-       [CHAR LIMIT=NONE] -->
-  <!-- Block number alert dialog button [CHAR LIMIT=32] -->
-  <!-- Confirmation dialog for unblocking a number. [CHAR LIMIT=NONE] -->
-  <!-- Unblock number alert dialog button [CHAR LIMIT=32] -->
-  <!-- Error message shown when user tries to add invalid number to the block list.
-      [CHAR LIMIT=64] -->
-  <!-- Text for snackbar to undo blocking a number. [CHAR LIMIT=64] -->
-  <!-- Text for snackbar to undo unblocking a number. [CHAR LIMIT=64] -->
-  <!-- Text for undo button in snackbar for blocking/unblocking number. [CHAR LIMIT=10] -->
-  <!-- Error toast message for when send to voicemail import fails. [CHAR LIMIT=40] -->
-  <!-- Title of notification telling the user that call blocking has been temporarily disabled.
-       [CHAR LIMIT=56] -->
-  <!-- Text for notification which provides the reason that call blocking has been temporarily
-       disabled. Namely, we disable call blocking after an emergency call in case of return
-       phone calls made by emergency services. [CHAR LIMIT=64] -->
-  <!-- Title of alert dialog after clicking on Block/report as spam.  [CHAR LIMIT=100] -->
-  <!-- Text in alert dialog after clicking on Block/report as spam.  [CHAR LIMIT=100] -->
-  <!-- Text in alert dialog after clicking on Block.  [CHAR LIMIT=100] -->
-  <!-- Text in alert dialog after clicking on Unblock.  [CHAR LIMIT=100] -->
-  <!-- Title of alert dialog after clicking on Unblock.  [CHAR LIMIT=100] -->
-  <!-- Report not spam number alert dialog button [CHAR LIMIT=32] -->
-  <!-- Title of alert dialog after clicking on Report as not spam.  [CHAR LIMIT=100] -->
-  <!-- Text in alert dialog after clicking on Report as not spam.  [CHAR LIMIT=100] -->
-  <!-- Label for checkbox in the Alert dialog to allow the user to report the number as spam as well.  [CHAR LIMIT=30] -->
+  <string name="migrate_blocked_numbers_dialog_title">Bloquéu nuevu y acencielláu</string>
+  <string name="migrate_blocked_numbers_dialog_message">Pa protexete meyor, Teléfonu precisa camudar cómo funciona\'l bloquéu. Los tos númberos bloquiaos agora pararán llamaes y Sms, y quiciabes se compartan con otres aplicaciones.</string>
+  <string name="migrate_blocked_numbers_dialog_allow_button">Permitir</string>
+  <string name="migrate_blocked_numbers_dialog_cancel_button">@android:string/cancel</string>
+  <string name="block_number_confirmation_title">Torga <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?</string>
+  <string name="block_number_confirmation_message_vvm">        Bloquiaránse les llamaes y desaniciaránse automáticamente los mensaxes de voz.
+    </string>
+  <string name="block_number_confirmation_message_no_vvm">        Bloquiaránse los númberos d\'esti númberu pero entá sedrá a dexate mensaxes de voz.
+    </string>
+  <string name="block_number_confirmation_message_new_filtering">        Yá nun recibirás llamaes o Sms d\'esti númberu.
+    </string>
+  <string name="block_number_ok">BLOQUIAR</string>
+  <string name="unblock_number_confirmation_title">Destorgar <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>?</string>
+  <string name="unblock_number_ok">DESBLOQUIAR</string>
+  <string name="invalidNumber"><xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g>
+        nun val.</string>
+  <string name="snackbar_number_blocked">        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> torgáu</string>
+  <string name="snackbar_number_unblocked">        <xliff:g example="(555) 555-5555" id="number">%1$s</xliff:g> destorgáu</string>
+  <string name="block_number_undo">DESFACER</string>
+  <string name="send_to_voicemail_import_failed">Falló la importación</string>
+  <string name="call_blocking_disabled_notification_title">        Desactivóse\'l bloquéu de llamaes por 48 hores
+    </string>
+  <string name="call_blocking_disabled_notification_text">        Desactivóse porque se fexo una llamada d\'emerxencia.
+    </string>
+  <string name="block_report_number_alert_title">Torgar <xliff:g id="number">%1$s</xliff:g>?</string>
+  <string name="block_report_number_alert_details">Yá nun vas recibir llamaes d\'esti númberu.</string>
+  <string name="block_number_alert_details"><xliff:g id="text">%1$s</xliff:g> Esta llamada va conseñase como spam.</string>
+  <string name="report_not_spam_alert_button">Informar</string>
+  <string name="report_not_spam_alert_title">¿Informar d\'una confusión?</string>
+  <string name="checkbox_report_as_spam_action">Reportar llamada como spam</string>
 </resources>

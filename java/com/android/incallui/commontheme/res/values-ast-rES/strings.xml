@@ -16,12 +16,13 @@
   ~ limitations under the License
   -->
 <resources>
-  <!-- Text for the onscreen "Hold" button when it is not selected. Pressing it will put
-     the call on hold. -->
-  <!-- Text for the onscreen "Hold" button when it is selected. Pressing it will resume
-       the call from a previously held state. -->
-  <!-- Button shown during a phone to route audio from earpiece to speaker phone.
-     [CHAR LIMIT=12] -->
-  <!-- Button shown during a phone to switch the audio route.
-     [CHAR LIMIT=12] -->
+  <string name="incall_content_description_swap_calls">Alternar llamaes</string>
+  <string name="incall_content_description_earpiece">Auricular inalámbricu</string>
+  <string name="incall_content_description_hold">Retener llamada</string>
+  <string name="incall_content_description_unhold">Reanudar llamada</string>
+  <string name="incall_content_description_video_on">Videu encesu</string>
+  <string name="incall_content_description_video_off">Videu apagáua</string>
+  <string name="incall_content_description_swap_video">Intercambiar videu</string>
+  <string name="incall_label_speaker">Altavoz</string>
+  <string name="incall_label_audio">Soníu</string>
 </resources>

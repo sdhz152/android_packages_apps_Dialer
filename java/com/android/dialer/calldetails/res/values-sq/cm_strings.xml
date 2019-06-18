@@ -15,4 +15,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="play_recordings">
+        <item quantity="one">Luaj inçizimin</item>
+        <item quantity="other">Luaj inçizimet</item>
+    </plurals>
+    <string name="call_playback_no_app_found_toast">Nuk u gjet asnjë aplikacion për të luajtur inçizimin e zgjedhur.</string>
+</resources>

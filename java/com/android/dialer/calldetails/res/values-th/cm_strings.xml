@@ -15,4 +15,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="play_recordings">
+        <item quantity="other">เล่นการบันทึก</item>
+    </plurals>
+    <string name="call_playback_no_app_found_toast">ไม่พบแอปที่สามารถเล่นไฟล์บันทึกที่เลือกไว้ได้</string>
+</resources>
